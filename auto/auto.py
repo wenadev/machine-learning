@@ -3,13 +3,7 @@
 MSE for poor model (KNN): 20.2565 
 
 MSE for good model (Lasso): 3.8466458475472365
-    
-    
-Created on Mon Sep 27 06:13:55 2021
-
-@author: Temitayo Hayes
-Student Number: 100794977
-Course: Machine Learning MITS
+   
 """
 
 import os
