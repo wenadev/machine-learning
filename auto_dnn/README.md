@@ -1,27 +1,26 @@
 <!-- GETTING STARTED -->
-## Getting Started
+## Predicting Fuel Consumption using Deep Neural Network
 
-To get a local copy up and running follow these simple steps.
+The program:
+- Trains a poor deep neural network (DNN) model using 
+keras.models.Sequential to predict mpg in such a way that the model intentionally overfits 
+the training data usin 100 epochs. 
+- Generates a graph that depicts loss and performance metric 
+(e.g., mse, mae, or other) for both the training and the validation sets. 
 
-### Installation
- 
-```sh
-$ git clone https://github.com/2stobank/2sto-web
-$ yarn
-$ yarn start
+## Poor model
+![graph](d.png)
 
-# Load the site at localhost:3000/
-```
+## Good model
+![graph](e.png)
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Create your Branch (`git checkout -b myCode`)
-2. Commit your Changes (`git commit -m 'Adding some Code'`)
-3. Push to the Branch (`git push origin myCOde`)
-4. Open a Pull Request to Main
+- Improves the model from (d) by changing some hyperparameters using 100 epochs. 
+- Generates a second graph that depicts loss and 
+performance metric for both the training and the validation sets. 
 
 ### Built With
-
-* [React](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
+* [Dataset](https://archive.ics.uci.edu/ml/datasets/Wine) 
+* [Python](https://reactjs.org/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/)
