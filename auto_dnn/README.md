@@ -8,15 +8,15 @@ the training data using 100 epochs.
 - Generates a graph that depicts loss and performance metric 
 (e.g., mse, mae, or other) for both the training and the validation sets. 
 
-## Poor model
+### Poor model
 ![graph](d.png)
 
-## Good model
+- Improves the model from (d) by changing some hyperparameters using 100 epochs. 
+### Good model
+
 ![graph](e.png)
 
-- Improves the model from (d) by changing some hyperparameters using 100 epochs. 
-- Generates a second graph that depicts loss and 
-performance metric for both the training and the validation sets. 
+- Generates a second graph that depicts loss and performance metric for both the training and the validation sets. 
 
 ### Built With
 * [Dataset](https://archive.ics.uci.edu/ml/datasets/Wine) 
