@@ -1,27 +1,16 @@
 <!-- GETTING STARTED -->
-## Getting Started
+## Predicting Wine Data using Deep Neural Network
 
-To get a local copy up and running follow these simple steps.
+The program:
+- Trains a good model to predict wine data using Sequential DNN
+- Predicts the class of wine on unseen data (A2Q2.xlsx) to check accuracy
 
-### Installation
- 
-```sh
-$ git clone https://github.com/2stobank/2sto-web
-$ yarn
-$ yarn start
+The class of each sample in the unseen data is: Class 2 
 
-# Load the site at localhost:3000/
-```
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Create your Branch (`git checkout -b myCode`)
-2. Commit your Changes (`git commit -m 'Adding some Code'`)
-3. Push to the Branch (`git push origin myCOde`)
-4. Open a Pull Request to Main
 
 ### Built With
-
-* [React](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
+* [Dataset](https://archive.ics.uci.edu/ml/datasets/Wine) 
+* [Python](https://reactjs.org/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/)
