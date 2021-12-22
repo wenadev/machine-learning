@@ -1,27 +1,25 @@
 <!-- GETTING STARTED -->
-## Getting Started
+## Predicting Fuel Consumption
 
-To get a local copy up and running follow these simple steps.
+The program:
+- Drops the car name attribute.  
+- Splits the data into 80% training and 20% testing sets.  
+- Attributes horsepower has 6 missing values. Fill these up with the average 
+horsepower for the respective number of cylinders. 
+- Trains a poor model to predict mpg in such a way that the model 
+intentionally overfits the training data.  
+- Trains a better model that does not overfit the training data.  
+- Generates a graph showing both models (poor and good) with the highest correlation with the mpg label, and in the y-axis the mpg.  
 
-### Installation
- 
-```sh
-$ git clone https://github.com/2stobank/2sto-web
-$ yarn
-$ yarn start
+![graph](auto.jpeg)
 
-# Load the site at localhost:3000/
-```
+- Tests both models (poor and good) using the test set and reports the MSE for both models  
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Create your Branch (`git checkout -b myCode`)
-2. Commit your Changes (`git commit -m 'Adding some Code'`)
-3. Push to the Branch (`git push origin myCOde`)
-4. Open a Pull Request to Main
 
 ### Built With
-
-* [React](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
+* [Dataset](https://archive.ics.uci.edu/ml/datasets/Auto+MPG ) 
+* [Python](https://reactjs.org/)
+* [Numpy](https://github.com/facebook/create-react-app)
+* [Pandas](https://pandas.pydata.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Sklearn](https://scikit-learn.org/)
