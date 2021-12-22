@@ -1,27 +1,24 @@
 <!-- GETTING STARTED -->
-## Getting Started
+## Hard Voting
 
-To get a local copy up and running follow these simple steps.
+The program:
 
-### Installation
- 
-```sh
-$ git clone https://github.com/2stobank/2sto-web
-$ yarn
-$ yarn start
+- Trains a ‘hard’ Voting Classifier that includes the following models and prints their accuracy on the testing data:
 
-# Load the site at localhost:3000/
-```
+ - Gaussian Naïve Bayes
+ - Support Vector Machine (gamma=0.5, C=100)
+ - Decision Tree Classifier (max_depth=5)
 
-<!-- CONTRIBUTING -->
-## Contributing
+## Bagging Classifier
 
-1. Create your Branch (`git checkout -b myCode`)
-2. Commit your Changes (`git commit -m 'Adding some Code'`)
-3. Push to the Branch (`git push origin myCOde`)
-4. Open a Pull Request to Main
+The program:
+
+- Trains a Bagging Classifier ensemble using 100 Decision Tree estimators
+- Prints their accuracy on the ‘out of bag’ samples and on the testing data
 
 ### Built With
-
-* [React](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
+* [Hard Voting Dataset]((https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data ) 
+* [Bagging Dataset]((https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data ) 
+* [Python](https://reactjs.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/)
