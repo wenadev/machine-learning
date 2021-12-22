@@ -17,8 +17,7 @@ The program:
 - Prints their accuracy on the ‘out of bag’ samples and on the testing data
 
 ### Built With
-* [Hard Voting Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data ) 
-* [Bagging Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data ) 
+* [Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-
 * [Python](https://reactjs.org/)
 * [Pandas](https://pandas.pydata.org/)
 * [Sklearn](https://scikit-learn.org/)
