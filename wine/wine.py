@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Temitayo
-
-Created on Mon Sep 27 06:13:55 2021
-
-@author: Temitayo Hayes
-Student Number: 100794977
-Course: Machine Learning MITS
-"""
-
 import pandas as pd
 
 cols = ["Class","Alcohol",
