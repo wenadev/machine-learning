@@ -4,7 +4,7 @@
 The program:
 - Trains a poor deep neural network (DNN) model using 
 keras.models.Sequential to predict mpg in such a way that the model intentionally overfits 
-the training data usin 100 epochs. 
+the training data using 100 epochs. 
 - Generates a graph that depicts loss and performance metric 
 (e.g., mse, mae, or other) for both the training and the validation sets. 
 
