@@ -1,25 +1,39 @@
 <!-- GETTING STARTED -->
-## Getting Started
+##Frame the Problem and Look at The Big Picture
 
-To get a local copy up and running follow these simple steps.
+s. The machine learning models will be trained with the objective of predicting gold prices given its other stock prices. In order to analyze the data, numpy, pandas, matplotlib, seaborn, and sklearn are used.
 
-### Installation
- 
-```sh
-$ git clone https://github.com/2stobank/2sto-web
-$ yarn
-$ yarn start
+- Date: MM/DD/YYYY
+- SPX: The Standard & Poor’s 500 index represents 500
+publicly traded countries in the United States
+- GLD: SPDR Gold Shares, which are exchange-traded
+funds of the SPDR family
+- USO: United States Oil Price, a share exchange-traded
+security
+- SLV: Denotes the iShares Silver Trust (SLV) exchange
+traded fund (ETF)
+- EUR/USD: Currency pair of the Euro against the US dollar
 
-# Load the site at localhost:3000/
-```
+### Exploring the data
+![graph](explore1.png)
 
-<!-- CONTRIBUTING -->
-## Contributing
+![graph](explore2.png)
 
-1. Create your Branch (`git checkout -b myCode`)
-2. Commit your Changes (`git commit -m 'Adding some Code'`)
-3. Push to the Branch (`git push origin myCOde`)
-4. Open a Pull Request to Main
+## Performance
+Three machine learning models, including SGD, Random Forest and DNN, were used to predict gold price based on other attributes. The performance of each model was analyzed based on a comparative experiment on the real-life dataset. Tuning several parameters ensured the validity and reliability of the results. Based on two metrics of RMSE and MAE, the performance of the three
+models was assessed. It was determined that Random Forest was the best model. Overall, the Random Forest model presents itself as a promising machine learning model for predicting near-accurate values of the Gold Price Dataset.
+
+### SGD
+
+![graph](SGD.png)
+
+### Random Forest
+
+![graph](random_forest.png)
+
+### DNN
+
+![graph](neural.png)
 
 ### Built With
 
