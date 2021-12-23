@@ -1,5 +1,5 @@
 <!-- GETTING STARTED -->
-##Frame the Problem and Look at The Big Picture
+## Frame the Problem and Look at The Big Picture
 
 s. The machine learning models will be trained with the objective of predicting gold prices given its other stock prices. In order to analyze the data, numpy, pandas, matplotlib, seaborn, and sklearn are used.
 
