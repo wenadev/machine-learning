@@ -36,6 +36,11 @@ models was assessed. It was determined that Random Forest was the best model. Ov
 ![graph](neural.png)
 
 ### Built With
+* [Dataset](https://www.kaggle.com/altruistdelhite04/gold-price-data) 
+* [Python](https://reactjs.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/)
+* [Numpy](https://numpy.org/)
+* [Seaborn](https://seaborn.pydata.org/)
 
-* [React](https://reactjs.org/)
-* [Create React App](https://github.com/facebook/create-react-app)
