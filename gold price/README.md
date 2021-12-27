@@ -1,6 +1,6 @@
 <!-- GETTING STARTED -->
 ## Formal Report on the Gold Price Assessment
-![Report](https://drive.google.com/file/d/1k-elTeHjCgC5rtVAOo7wWnAiLkSj60rZ/view?usp=sharing)
+* ![Report](https://drive.google.com/file/d/1k-elTeHjCgC5rtVAOo7wWnAiLkSj60rZ/view?usp=sharing)
 
 ## Frame the Problem and Look at The Big Picture
 
