@@ -1,4 +1,7 @@
 <!-- GETTING STARTED -->
+## Formal Report on the Gold Price Assessment
+![Report](https://drive.google.com/file/d/1k-elTeHjCgC5rtVAOo7wWnAiLkSj60rZ/view?usp=sharing)
+
 ## Frame the Problem and Look at The Big Picture
 
 The machine learning models are trained with the objective of predicting gold prices given its other stock prices. In order to analyze the data, numpy, pandas, matplotlib, seaborn, and sklearn are used.
