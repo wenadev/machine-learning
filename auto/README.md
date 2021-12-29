@@ -2,14 +2,10 @@
 ## Predicting Fuel Consumption
 
 The program:
-- Drops the car name attribute.  
-- Splits the data into 80% training and 20% testing sets.  
-- Attributes horsepower has 6 missing values. Fill these up with the average 
-horsepower for the respective number of cylinders. 
-- Trains a poor model to predict mpg in such a way that the model 
-intentionally overfits the training data.  
+- Cleans the data and fixes the missing values by replacing them with the average horsepower for the respective number of cylinders. 
+- Trains a poor model to intentionally overfit the training data, evident in its predictions 
 - Trains a better model that does not overfit the training data.  
-- Generates a graph showing both models (poor and good) with the highest correlation with the mpg label, and in the y-axis the mpg.  
+- Generates a graph showing both models (poor and good), with the highest negatively correlated attribute and the target variable (MPG)
 
 ![graph](auto.jpeg)
 
