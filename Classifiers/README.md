@@ -3,18 +3,18 @@
 
 The program:
 
-- Trains a ‘hard’ Voting Classifier that includes the following models and prints their accuracy on the testing data:
+- Trains a ‘hard’ Voting Classifier with following models:
 
  - Gaussian Naïve Bayes
- - Support Vector Machine (gamma=0.5, C=100)
- - Decision Tree Classifier (max_depth=5)
+ - Support Vector Machine
+ - Decision Tree Classifier
 
 ## Bagging Classifier
 
 The program:
 
-- Trains a Bagging Classifier ensemble using 100 Decision Tree estimators
-- Prints their accuracy on the ‘out of bag’ samples and on the testing data
+- Trains a Bagging Classifier
+- Prints the accuracy on the ‘out of bag’ samples and on the testing data
 
 ### Built With
 * [Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data)
